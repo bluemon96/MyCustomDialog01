@@ -47,6 +47,7 @@ public class MyDialog extends AppCompatDialogFragment {
                 String username = editTextUsername.getText().toString();
                 String password = editTextPassword.getText().toString();
                 listener.applyTexts(username, password);
+
                 dismiss();
             }
         });
